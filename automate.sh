@@ -1,8 +1,8 @@
 #! /bin/sh
 
-read -p {"your repo"} $repo
-read -p {"your branche"} $branche
-read -p {"your message"} $message
+read -p {"your repo"} repo
+read -p {"your branche"} branche
+read -p {"your message"} message
 
 git init
 git checkout $branche
