@@ -10,4 +10,5 @@ git checkout $branche
 git add $files
 git commit -m "$message"
 git remote add $repo git@github.com:DAIFI-A/$repo.git
+git pull
 git push -u $repo $branche
